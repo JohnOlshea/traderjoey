@@ -4,18 +4,16 @@ import SecondaryButton from '../buttons/SecondaryButton';
 
 export default function Navbar() {
     return (
-        <div className="py-4 flex justify-between items-center">
-            <div>
-                <div className="flex mr-6">
-                    <img src={logo} alt="TraderJoey" />
-                </div>
+        <div className="fixed top-0 py-8 flex justify-between items-center">
+            <div className="flex items-center">
+                <img src={logo} className="mr-6" alt="TraderJoey" />
                 <nav className="flex">
-                    <a href="" className='mx-4'>Fx Trading</a>
-                    <a href="" className='mx-4'>Exchanges</a>
-                    <a href="" className='mx-4'>Watchlist</a>
-                    <a href="" className='mx-4'>NFT</a>
-                    <a href="" className='mx-4'>Portfolio</a>
-                    <a href="" className='mx-4'>Product</a>
+                    <a href="/" className='mx-6 hover:text-primary'>Fx Trading</a>
+                    <a href="/" className='mx-6 hover:text-primary'>Exchanges</a>
+                    <a href="/" className='mx-6 hover:text-primary'>Watchlist</a>
+                    <a href="/" className='mx-6 hover:text-primary'>NFT</a>
+                    <a href="/" className='mx-6 hover:text-primary'>Portfolio</a>
+                    <a href="/" className='mx-6 hover:text-primary'>Product</a>
                 </nav>
             </div>
             <div className="flex">
