@@ -14,7 +14,7 @@ export default function CreditCardSection() {
         <div className="flex justify-center">
           <div className="max-w-md">
             <h2 className="font-bold text-4xl mb-6 leading-normal">
-              Introducing the <span className="text-blue-gradient">NEFA</span> <br /> Credit Card
+              Introducing the <span className="text-blue-gradient">TRADERJOEY</span> <br /> Credit Card
             </h2>
             <p className='text-gray'>Subject to cardholder and rewards terms which will be available <br /> at application.</p>
 
@@ -25,7 +25,7 @@ export default function CreditCardSection() {
               </li>
               <li className='mb-2'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
-                Earn rewards in bitcoin or any crypto on NEFA
+                Earn rewards in bitcoin or any crypto on TRADERJOEY
               </li>
               <li className='mb-2'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />

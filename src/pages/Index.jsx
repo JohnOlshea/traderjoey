@@ -5,6 +5,7 @@ import BuyAndTradeSection from "../../../../nefa/src/components/sections/BuyAndT
 import PartnerSection from "../components/sections/PartnerSection";
 import CreditCardSection from "../components/sections/CreditCardSection";
 import TradingToolsSection from "../components/sections/TradingToolsSection";
+import SecuritySection from "../components/sections/SecuritySection";
 
 export default function Index() {
     return (
@@ -15,6 +16,7 @@ export default function Index() {
             <PartnerSection />
             <CreditCardSection />
             <TradingToolsSection />
+            <SecuritySection />
         </Layout>
     )
 }
