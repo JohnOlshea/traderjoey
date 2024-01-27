@@ -1,6 +1,7 @@
 import globe from '../../images/illustrations/globe.png';
 import PrimaryButton from '../buttons/PrimaryButton';
 import SecondaryButton from '../buttons/SecondaryButton';
+import { BsChevronDown } from 'react-icons/bs';
 
 export default function HeroSection() {
     return (
@@ -19,6 +20,7 @@ export default function HeroSection() {
                             </PrimaryButton>
                             <SecondaryButton>
                                 Download App
+                                <BsChevronDown />
                             </SecondaryButton>
                         </div>
                     </div>

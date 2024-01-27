@@ -1,3 +1,5 @@
+import { BsChevronDown } from 'react-icons/bs'
+
 import logo from '../../images/logo.svg';
 import PrimaryButton from '../buttons/PrimaryButton';
 import SecondaryButton from '../buttons/SecondaryButton';
@@ -13,7 +15,10 @@ export default function Navbar() {
                     <a href="/" className='mx-6 hover:text-primary'>Watchlist</a>
                     <a href="/" className='mx-6 hover:text-primary'>NFT</a>
                     <a href="/" className='mx-6 hover:text-primary'>Portfolio</a>
-                    <a href="/" className='mx-6 hover:text-primary'>Product</a>
+                    <a href="/" className='mx-6 hover:text-primary'>
+                        Product
+                        <BsChevronDown />
+                    </a>
                 </nav>
             </div>
             <div className="flex">
