@@ -7,6 +7,7 @@ import CreditCardSection from "../components/sections/CreditCardSection";
 import TradingToolsSection from "../components/sections/TradingToolsSection";
 import SecuritySection from "../components/sections/SecuritySection";
 import StepSection from "../components/sections/StepSection";
+import FaqSection from "../components/sections/FAQSection";
 
 export default function Index() {
     return (
@@ -19,6 +20,7 @@ export default function Index() {
             <TradingToolsSection />
             <SecuritySection />
             <StepSection />
+            <FaqSection />
         </Layout>
     )
 }
