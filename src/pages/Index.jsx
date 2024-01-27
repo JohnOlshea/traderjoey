@@ -4,6 +4,7 @@ import CryptocurrrencySection from "../components/sections/CryptocurrencySection
 import BuyAndTradeSection from "../../../../nefa/src/components/sections/BuyAndTradeSection";
 import PartnerSection from "../components/sections/PartnerSection";
 import CreditCardSection from "../components/sections/CreditCardSection";
+import TradingToolsSection from "../components/sections/TradingToolsSection";
 
 export default function Index() {
     return (
@@ -13,6 +14,7 @@ export default function Index() {
             <BuyAndTradeSection />
             <PartnerSection />
             <CreditCardSection />
+            <TradingToolsSection />
         </Layout>
     )
 }
