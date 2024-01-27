@@ -4,7 +4,7 @@ import ListCoin from '../ListCoin';
 
 const trendingCoins = [{
   image: '/cryptocurrencies/bitcoin.png',
-  name: 'Bitcoin',
+  name: 'Coinpay',
   price: '$43,180.13',
   uptrend: true
 }, {
@@ -30,7 +30,7 @@ const gainerCoins = [{
   uptrend: true
 }, {
   image: '/cryptocurrencies/bitcoinasia.png',
-  name: 'Bitcoin Asia',
+  name: 'Bitcoin Americ',
   price: '$0.02096',
   uptrend: true
 }, {
@@ -51,7 +51,7 @@ const recentlyCoins = [{
   uptrend: false
 }, {
   image: '/cryptocurrencies/frog.png',
-  name: 'Frog',
+  name: 'Tothe Moon Coin',
   price: '$0.5875',
   uptrend: false
 }, {
