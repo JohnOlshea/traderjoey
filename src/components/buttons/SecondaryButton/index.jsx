@@ -17,3 +17,10 @@ export default function SecondaryButton({ children, className, onClick, ...props
     </button>
   );
 }
+
+SecondaryButton.propTypes = {
+  children: PropTypes.node.isRequired,
+  classNames: PropTypes.string,
+  onClick: PropTypes.func
+};
+

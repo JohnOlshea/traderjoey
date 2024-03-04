@@ -1,10 +1,10 @@
 import React from 'react';
 
-import ListCoin from '../ListCoin';
+import ListCoin from '../../components/ListCoin';
 
 const trendingCoins = [{
   image: '/cryptocurrencies/bitcoin.png',
-  name: 'Coinpay',
+  name: 'Bitcoin',
   price: '$43,180.13',
   uptrend: true
 }, {
@@ -30,7 +30,7 @@ const gainerCoins = [{
   uptrend: true
 }, {
   image: '/cryptocurrencies/bitcoinasia.png',
-  name: 'Bitcoin Americ',
+  name: 'Bitcoin Asia',
   price: '$0.02096',
   uptrend: true
 }, {
@@ -51,7 +51,7 @@ const recentlyCoins = [{
   uptrend: false
 }, {
   image: '/cryptocurrencies/frog.png',
-  name: 'Tothe Moon Coin',
+  name: 'Frog',
   price: '$0.5875',
   uptrend: false
 }, {

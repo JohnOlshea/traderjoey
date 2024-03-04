@@ -14,3 +14,9 @@ export default function PrimaryButton({ children, className, onClick, ...props }
     </button >
   );
 }
+
+PrimaryButton.propTypes = {
+  children: PropTypes.node.isRequired,
+  classNames: PropTypes.string,
+  onClick: PropTypes.func
+};

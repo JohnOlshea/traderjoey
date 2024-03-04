@@ -1,5 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
+import CoinAreaChart from '../../components/charts/CoinAreaChart';
 
 export default function CoinRow({ image, coinName, coinPrice, coinUpTrend }) {
   return (
@@ -17,7 +19,15 @@ export default function CoinRow({ image, coinName, coinPrice, coinUpTrend }) {
         {coinPrice}
       </div>
       <div>
+        <CoinAreaChart isUpTrend={coinUpTrend} />
       </div>
     </div>
   );
 }
+
+CoinRow.propTypes = {
+  image: PropTypes.string.isRequired,
+  coinName: PropTypes.string.isRequired,
+  coinPrice: PropTypes.string.isRequired,
+  coinUpTrend: PropTypes.bool,
+};

@@ -1,7 +1,8 @@
 import React from 'react';
 
 import tradingTools from '../../images/illustrations/tradingtools.png';
-import SecondaryButton from '../buttons/SecondaryButton';
+import SecondaryButton from '../../components/buttons/SecondaryButton';
+import { Fade } from 'react-reveal';
 
 export default function TradingToolsSection() {
   return (
@@ -35,7 +36,9 @@ export default function TradingToolsSection() {
               </a>
             </div>
             <div className="row-start-1 mb-8">
+              <Fade up>
                 <img src={tradingTools} alt="" />
+              </Fade>
             </div>
           </div>
         </div>

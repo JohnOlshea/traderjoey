@@ -1,12 +1,23 @@
-import Navbar from '../Navbar';
-import Footer from "../Footer";
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import Footer from '../../components/Footer';
+import Navbar from '../../components/Navbar';
 
 export default function Layout({ children }) {
-    return (
-        <div className="container mx-auto">
-            <Navbar />
-            {children}
-            <Footer />
-        </div>
-    )
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main className='overflow-hidden'>
+        {children}
+      </main>
+      <Footer />
+    </>
+  );
 }
+
+Layout.propTypes = {
+  children: PropTypes.node
+};
